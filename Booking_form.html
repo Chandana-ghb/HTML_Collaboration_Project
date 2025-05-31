@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Form</title>
+    <link rel="icon" href="./Browser_icon.png">
+</head>
+<body>
+    <center><br><br><br><br><br><br><br><br><br><br><br><br>
+        <fieldset>
+            <legend>Booking Tickets</legend>
+        <form action="">
+            <label for="city">City: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="city" id="city">
+                <option value="select">-----Select-----</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Vijayawada">Vijayawada</option>
+                <option value="Kumbam">Kumbam</option>
+            </select>   <br><br>
+            
+            <label for="cinema">Theater: </label>
+            <input type="text" value="IMAX Cinemas" disabled><br><br>   
+
+            <label for="movie">Movie: </label>
+            <select name="" id="movie">
+                <option value="selected">------------------Select-----------------</option>
+                <optgroup label="Telugu">    
+                    <option value="">Bhairavam</option>
+                    <option value="">Court</option>
+                    <option value="">Khaleja</option>
+                    <option value="">c/o kancharapalem</option>
+                    <option value="">snehithudu</option>
+                </optgroup>
+                <optgroup label="Hindi">
+                    <option value="">Bhool Chuk Maaf</option>
+                    <option value="">Raid 2</option>
+                    <option value="">love karu ya shaadi</option>
+                </optgroup>
+                <optgroup label="Tamil">
+                    <option value="">Maaman</option>
+                    <option value="">Tourist Family</option>
+                    <option value="">Retro</option>
+                </optgroup>
+            </select><br><br>
+
+            <label for="date">Date: </label>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="showtime">Show Timings: </label>
+            <select name="showtime" id="showtime">
+                <option value="">------------------------Select------------------------</option>
+                <option value="">Morning Show(9:00 AM – 12:00 PM)</option>
+                <option value="">Matinee Show(	12:00 PM – 3:00 PM)</option>
+                <option value="">First Show(3:00 PM – 6:00 PM)</option>
+                <option value="">Evening Show(6:00 PM – 9:00 PM)</option>
+                <option value="">Night Show(9:00 PM – 12:00 AM)</option>
+                <option value="">Midnight Show(12:00 AM+)</option>
+            </select><br><br>
+
+            <label for="class">Class: </label>
+            <select name="" id="class">
+                <option value="">------Select-----</option>
+                <option value="">Economy ₹120</option>
+                <option value="">Silver Class ₹180</option>
+                <option value="">Balcony ₹220</option>
+                <option value="">Gold Class ₹350</option>
+                <option value="">Platinum Lounge ₹500</option>
+                <option value="">Couple Seats ₹400(per pair)</option>
+            </select><br><br>
+
+            <label for="tickets">No Of Tickets: </label>
+            <input type="number" name="tickets" id="tickets" required><br><br>
+
+            <input type="submit"><br><br>
+
+         <button><a href="./Cinema-Ticket.jpg" download="Movie Ticket">Dowload Ticket</a></button>
+
+            
+        </form>
+        </fieldset> 
+    </center>
+</body>
+</html>
